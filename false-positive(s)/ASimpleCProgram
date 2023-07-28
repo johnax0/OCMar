@@ -1,1 +1,20 @@
+=========False Positive (1)==========
+Type: C Program
+Name: a.exe
+Analysis Result:
+1. Static:
+- Using PEStudio:
+  1. Indicators: Score of VirusTotal
+  2. Flagged Section (from here on will be added marked (x)) :
+     2.2 Imports:    VirtualProtect (x)
+                     FindFirstFileA (x)
+                     FindNextFileA (x)
 
+  3. Payloads/Suspicious Functions can be seen in Dynamic Analysis that it is decompiled by Ghidra that the main function is printf("Hello World").
+     (x) Ghidra Decompile Function Main() only has one instruction which is printf ("Hello World");
+
+  4. Ways to Immobilize:
+      - None as it is not a malicious software.
+
+  5. Reasons being marked as malicious:
+      - Signature based on MinGW, a GCC Compiler for Windows and it was used as a compiler for Stuxnet malware.
