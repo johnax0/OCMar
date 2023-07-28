@@ -46,10 +46,18 @@ Full Guide
 <img src="/assets/Screenshot_1.png" width="100%" />
 <img src="/assets/Screenshot_2.png" width="100%" />
 <img src="/assets/Screenshot_3.png" width="100%" />
-<img src="/assets/Screenshot_4.png" width="100%" />
+
 2. Prepare to install windows ISO File from here https://support.microsoft.com/id-id/windows/create-an-iso-file-for-windows-10-38547366-1dcb-7afd-1726-9eb222d72705.
+<img src="/assets/Screenshot_5.png" width="100%" />
 3. The windows ISO File can be downloaded by downloading a Media Creation Tool and Follow the steps to install it on USB/as a ISO File.
+<img src="/assets/Screenshot_6.png" width="100%" />
+<img src="/assets/Screenshot_7.png" width="100%" />
+<img src="/assets/Screenshot_8.png" width="100%" />
+<img src="/assets/Screenshot_9.png" width="100%" />
+<img src="/assets/Screenshot_10.png" width="100%" />
+<img src="/assets/Screenshot_11.png" width="100%" />
 4. Create a new device in VMWare that you just downloaded. Select the ISO File and configure the system, then complete the windows setup.
+<img src="/assets/Screenshot_4.png" width="100%" />
 5. Download Necessary Tools to analyze the malware such as:
     - Static Analysis: ExeinfoPE, PEStudio, APK Editor / apktool
     - Dynamic Analysis: Procmon, Procdot, Fakenet-ng
