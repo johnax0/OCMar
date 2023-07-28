@@ -1,6 +1,8 @@
 # OCMar
 Open for Collab Malware Research
 
+<img src="/assets/Screenshot_12.png" width="100%" />
+
 
 Included malware(s) database are only for educational purposes!
 
