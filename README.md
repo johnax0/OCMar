@@ -42,6 +42,11 @@ For Details, here is the explained guidance with pictures. Feel free to check th
 
 Full Guide
 1. To install VMWare, you can go here https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html and download the file needed. Afterwards, follow the steps needed.
+<img src="/assets/Screenshot_19.png" width="100%" />
+<img src="/assets/Screenshot_1.png" width="100%" />
+<img src="/assets/Screenshot_2.png" width="100%" />
+<img src="/assets/Screenshot_3.png" width="100%" />
+<img src="/assets/Screenshot_4.png" width="100%" />
 2. Prepare to install windows ISO File from here https://support.microsoft.com/id-id/windows/create-an-iso-file-for-windows-10-38547366-1dcb-7afd-1726-9eb222d72705.
 3. The windows ISO File can be downloaded by downloading a Media Creation Tool and Follow the steps to install it on USB/as a ISO File.
 4. Create a new device in VMWare that you just downloaded. Select the ISO File and configure the system, then complete the windows setup.
