@@ -31,4 +31,4 @@ Guidance on what you need and how-to (Briefly)
         1. Ghidra: https://github.com/NationalSecurityAgency/ghidra
         2. X64dbg: https://x64dbg.com/
  
-For Details, there will be another repository dedicated for guidance. Stay tune!
+For Details, there is guidance on my repository. Feel free to check them!
