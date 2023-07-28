@@ -58,8 +58,12 @@ Full Guide
 <img src="/assets/Screenshot_11.png" width="100%" />
 4. Create a new device in VMWare that you just downloaded. Select the ISO File and configure the system, then complete the windows setup.
 <img src="/assets/Screenshot_4.png" width="100%" />
+<img src="/assets/Screenshot_12.png" width="100%" />
 5. Download Necessary Tools to analyze the malware such as:
     - Static Analysis: ExeinfoPE, PEStudio, APK Editor / apktool
+      <img src="/assets/Screenshot_13.png" width="100%" />
+      <img src="/assets/Screenshot_14.png" width="100%" />
+      <img src="/assets/apktool.png" width="100%" />
     - Dynamic Analysis: Procmon, Procdot, Fakenet-ng
     - Reverse and Patching: Ghidra Disassembler, X64dbg / X32dbg
 6. Ghidra Disassembler requires you to have Java 17 64-bit Runtime and Development Kit (JDK), there are few sources to install from:
