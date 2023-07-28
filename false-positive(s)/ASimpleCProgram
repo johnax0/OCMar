@@ -10,7 +10,7 @@ Analysis Result:
                      FindFirstFileA (x)
                      FindNextFileA (x)
 
-  3. Payloads/Suspicious Functions can be seen in Dynamic Analysis that it is decompiled by Ghidra that the main function is printf("Hello World").
+  3. Payloads/Suspicious Functions can be seen in Debugger Analysis that it is decompiled by Ghidra that the main function is printf("Hello World").
      (x) Ghidra Decompile Function Main() only has one instruction which is printf ("Hello World");
 
   4. Ways to Immobilize:
