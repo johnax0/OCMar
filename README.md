@@ -65,7 +65,12 @@ Full Guide
       <img src="/assets/Screenshot_14.png" width="100%" />
       <img src="/assets/apktool.png" width="100%" />
     - Dynamic Analysis: Procmon, Procdot, Fakenet-ng
+      <img src="/assets/Screenshot_15.png" width="100%" />
+      <img src="/assets/Screenshot_16.png" width="100%" />
+      <img src="/assets/Screenshot_17.png" width="100%" />
     - Reverse and Patching: Ghidra Disassembler, X64dbg / X32dbg
+      <img src="/assets/Screenshot_18.png" width="100%" />
+      <img src="/assets/Screenshot_21.png" width="100%" />
 6. Ghidra Disassembler requires you to have Java 17 64-bit Runtime and Development Kit (JDK), there are few sources to install from:
     - Free LTS by Adoptium Temurin (https://adoptium.net/temurin/releases)
     - Free LTS by Amazon Coretto (https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
