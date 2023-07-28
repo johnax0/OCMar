@@ -36,7 +36,7 @@ Guidance on what you need and how-to (Briefly)
 
 For Details, here is the explained guidance with pictures. Feel free to check them!
  
-====================================================================================================================================================================
+=======================================================================================================================================================================================
 
 ->For those who are new, we will start with Sandbox or VMWare. Sandbox/VMWare needed to be used to prevent the malware from activating and running on the host (your main computer), therefore the activity and the length of what malware can do is or at least limited.<-
 
