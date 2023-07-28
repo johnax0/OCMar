@@ -43,24 +43,16 @@ Full Guide
 3. The windows ISO File can be downloaded by downloading a Media Creation Tool and Follow the steps to install it on USB/as a ISO File.
 4. Create a new device in VMWare that you just downloaded. Select the ISO File and configure the system, then complete the windows setup.
 5. Download Necessary Tools to analyze the malware such as:
-    - Static Analysis:
-      A. ExeinfoPE
-      B. PEStudio
-      C. APK Editor / apktool
-    - Dynamic Analysis:
-      A. Procmon
-      B. Procdot
-      C. Fakenet-ng
-    - Reverse and Patching
-      A. Ghidra Disassembler
-      B. X64dbg / X32dbg
-6. Setup for Procdot, you will need WinDump/TCPDump and Graphviz to be able to create a visualization of the processes. You can download from here:
+    - Static Analysis: ExeinfoPE, PEStudio, APK Editor / apktool
+    - Dynamic Analysis: Procmon, Procdot, Fakenet-ng
+    - Reverse and Patching: Ghidra Disassembler, X64dbg / X32dbg
+6. Ghidra Disassembler requires you to have Java 17 64-bit Runtime and Development Kit (JDK), there are few sources to install from:
+    - Free LTS by Adoptium Temurin (https://adoptium.net/temurin/releases)
+    - Free LTS by Amazon Coretto (https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
+7. Procdot, you will need WinDump/TCPDump and Graphviz to be able to create a visualization of the processes. You can download from here:
     - WinDump : http://www.winpcap.org/windump/install/default.htm
     - Graphviz : http://www.graphviz.org/download_windows.php
    On the first run, Procdot will ask you to locate the WinDump and Graphviz executables files.
-7. Setup for Ghidra Disassembler requires you to have Java 17 64-bit Runtime and Development Kit (JDK), there are few sources to install from:
-    - Free LTS by Adoptium Temurin (https://adoptium.net/temurin/releases)
-    - Free LTS by Amazon Coretto (https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
 8. Step by step Instructions on How to Analyze (Windows Malware)
     A. Open up VMWare, and disconnect/the internet just to be cautios of the malware. While you do so, the windows defender should be turned off to prevent any interference from it.
     B. Static Analysis, drag and drop the executables that you want to analyze inside of Exeinfope and PEStudio to analyze it further.
