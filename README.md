@@ -15,7 +15,7 @@ Feature:
 
 
 Explaination regarding releases:
-- Malware(s) will be filled accordingly to the collaboration of the people that helps with reversing malware that are already available or which is coming.
+- Malware(s) will be filled accordingly to the collaboration of the people that helps with reversing malware that are already available or that is coming.
 - False-Positive(s) will be filled to show that the software is not actually dangerous and does not have any dangerous functions within it.
 
 Guidance on what you need and how-to (Briefly)
