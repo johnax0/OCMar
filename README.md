@@ -74,16 +74,21 @@ Full Guide
 6. Ghidra Disassembler requires you to have Java 17 64-bit Runtime and Development Kit (JDK), there are few sources to install from:
     - Free LTS by Adoptium Temurin (https://adoptium.net/temurin/releases)
     - Free LTS by Amazon Coretto (https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html)
+      <img src="/assets/Screenshot_20.png" width="100%" />
 7. Procdot, you will need WinDump/TCPDump and Graphviz to be able to create a visualization of the processes. You can download from here:
     - WinDump : http://www.winpcap.org/windump/install/default.htm
     - Graphviz : http://www.graphviz.org/download_windows.php
    On the first run, Procdot will ask you to locate the WinDump and Graphviz executables files.
+      <img src="/assets/Screenshot_22.png" width="100%" />
+      <img src="/assets/Screenshot_23.png" width="100%" />
 8. Step by step Instructions on How to Analyze (Windows Malware)
-    A. Open up VMWare, and disconnect/the internet just to be cautios of the malware. While you do so, the windows defender should be turned off to prevent any interference from it.
-    B. Static Analysis, drag and drop the executables that you want to analyze inside of Exeinfope and PEStudio to analyze it further.
+    - Open up VMWare, and disconnect/the internet just to be cautios of the malware. While you do so, the windows defender should be turned off to prevent any interference from it.
+      <img src="/assets/Screenshot_24.png" width="100%" />
+      <img src="/assets/Screenshot_25.png" width="100%" />
+    - Static Analysis, drag and drop the executables that you want to analyze inside of Exeinfope and PEStudio to analyze it further.
         Exeinfope will give you an information if the malware is packed and the good part is, it also tells you how to unpack.
         PEStudio will tell you indications on what functions/api that will be used alongside the windows libraries file.
-    C. Dynamic Analysis, before trying to run the malware it is recommended to start fakenet-ng incase the malware is trying to connect to an external network/IP.
+    - Dynamic Analysis, before trying to run the malware it is recommended to start fakenet-ng incase the malware is trying to connect to an external network/IP.
         Procmon can be used to capture and log the activity of the malware. Filter can be applied also into the captured logs, those filter are:
           - ProcessCreate
           - WriteFile
