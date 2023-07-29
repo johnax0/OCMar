@@ -99,12 +99,12 @@ Full Guide
 
 
 9. Step by step Instructions on How to Analyze (Windows Malware)
-    - Open up VMWare, and disconnect/the internet just to be cautios of the malware. While you do so, the windows defender should be turned off to prevent any interference from it.
+- Open up VMWare, and disconnect/the internet just to be cautios of the malware. While you do so, the windows defender should be turned off to prevent any interference from it.
       <img src="/assets/Screenshot_24.png" width="100%" />
       <img src="/assets/Screenshot_25.png" width="100%" />
     
     
-    - Static Analysis, drag and drop the executables that you want to analyze inside of Exeinfope and PEStudio to analyze it further.
+- Static Analysis, drag and drop the executables that you want to analyze inside of Exeinfope and PEStudio to analyze it further.
         Exeinfope will give you an information if the malware is packed and the good part is, it also tells you how to unpack.
       <img src="/assets/Screenshot_26.png" width="100%" />
       <img src="/assets/Screenshot_27.png" width="100%" />
@@ -113,7 +113,7 @@ Full Guide
       <img src="/assets/Screenshot_29.png" width="100%" />
     
     
-    - Dynamic Analysis, before trying to run the malware it is recommended to start fakenet-ng incase the malware is trying to connect to an external network/IP.
+- Dynamic Analysis, before trying to run the malware it is recommended to start fakenet-ng incase the malware is trying to connect to an external network/IP.
       <img src="/assets/Screenshot_36.png" width="100%" />
         Procmon can be used to capture and log the activity of the malware.
       <img src="/assets/Screenshot_41.png" width="100%" />
@@ -133,12 +133,11 @@ While using Procdot, you can use the CSV file that you got from Procmon and inse
        <img src="/assets/Screenshot_35.png" width="100%" />
     
     
-- Disassembly and Patching
-  Ghidra, you can use it to analyze the executables. It will analyze the imports such as functions and necessary DLL file that are being used also being able to decompile some part of the malware is a nice thing to have.
+- Disassembly and Patching: Ghidra, you can use it to analyze the executables. It will analyze the imports such as functions and necessary DLL file that are being used also being able to decompile some part of the malware is a nice thing to have.
       <img src="/assets/Screenshot_37.png" width="100%" />
 
 
-By doing decompile on the code, you can analyze what conditions does it have to run certain functions and/or finds out what is the killswitch. 
+- By doing decompile on the code, you can analyze what conditions does it have to run certain functions and/or finds out what is the killswitch. 
 Finally, after you have got the killswitch and analyze the conditions you can import/open the executeables in X64dbg or X32dbg to patch that specific functions.
 You can either change the value like changing from 1 to a 0 or going with the NOP on functions that are marked as suspicious/dangerous.
       <img src="/assets/Screenshot_38.png" width="100%" />
