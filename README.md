@@ -96,18 +96,13 @@ Full Guide
       <img src="/assets/Screenshot_36.png" width="100%" />
         Procmon can be used to capture and log the activity of the malware.
       <img src="/assets/Screenshot_41.png" width="100%" />
-      Filter can be applied also into the captured logs, those filter are:
-      - ProcessCreate
-      - WriteFile
-      - SetDispositionInformationFile
-      - TCP and UDP
-      - RegSetValue
+      Filter can be applied also into the captured logs, those filter are ProcessCreate, WriteFile, SetDispositionInformationFile, TCP and UDP, & RegSetValue
        <img src="/assets/Screenshot_31.png" width="100%" />
-        ProcessCreate can show the malware is creating a new process when it is executed, while WriteFile and SetDispositionInformationFile is tracking what file or temporary files are created.
-        RegSetValue also keep tracks of the value of registry that are being set. TCP and UDP are to logs if the malware is requesting a request to external IP/Websites.
-        Afterwards, Procmon can create/export the logs using CSV so that Procdot can read them.
+ProcessCreate can show the malware is creating a new process when it is executed, while WriteFile and SetDispositionInformationFile is tracking what file or temporary files are created.
+RegSetValue also keep tracks of the value of registry that are being set. TCP and UDP are to logs if the malware is requesting a request to external IP/Websites.
+Afterwards, Procmon can create/export the logs using CSV so that Procdot can read them.
        <img src="/assets/Screenshot_32.png" width="100%" />
-        While using Procdot, you can use the CSV file that you got from Procmon and insert them. Pick the process of the malware that was running on the device and hit refresh to visualize the process.
+While using Procdot, you can use the CSV file that you got from Procmon and insert them. Pick the process of the malware that was running on the device and hit refresh to visualize the process.
        <img src="/assets/Screenshot_33.png" width="100%" />
        <img src="/assets/Screenshot_34.png" width="100%" />
        <img src="/assets/Screenshot_35.png" width="100%" />
