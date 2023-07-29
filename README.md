@@ -117,3 +117,7 @@ You can either change the value like changing from 1 to a 0 or going with the NO
       <img src="/assets/Screenshot_38.png" width="100%" />
       <img src="/assets/Screenshot_39.png" width="100%" />
       <img src="/assets/Screenshot_40.png" width="100%" />
+
+
+
+And that's all about it. Feel free to let me know if you have any different ways so I can add it into this guide/make a alternative guidance. Thanks !
