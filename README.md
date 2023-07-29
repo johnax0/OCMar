@@ -1,4 +1,4 @@
-# OCMar
+# OCMaR
 Open for Collab Malware Research
 
 
