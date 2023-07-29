@@ -110,9 +110,10 @@ While using Procdot, you can use the CSV file that you got from Procmon and inse
         Ghidra, you can use it to analyze the executables. It will analyze the imports such as functions and necessary DLL file that are being used also being able to decompile some part of the malware is a nice thing to have.
       <img src="/assets/Screenshot_37.png" width="100%" />
 
-        By doing decompile on the code, you can analyze what conditions does it have to run certain functions and/or finds out what is the killswitch. 
-        Finally, after you have got the killswitch and analyze the conditions you can import/open the executeables in X64dbg or X32dbg to patch that specific functions.
-        You can either change the value like changing from 1 to a 0 or going with the NOP on functions that are marked as suspicious/dangerous.
+
+By doing decompile on the code, you can analyze what conditions does it have to run certain functions and/or finds out what is the killswitch. 
+Finally, after you have got the killswitch and analyze the conditions you can import/open the executeables in X64dbg or X32dbg to patch that specific functions.
+You can either change the value like changing from 1 to a 0 or going with the NOP on functions that are marked as suspicious/dangerous.
       <img src="/assets/Screenshot_38.png" width="100%" />
       <img src="/assets/Screenshot_39.png" width="100%" />
       <img src="/assets/Screenshot_40.png" width="100%" />
