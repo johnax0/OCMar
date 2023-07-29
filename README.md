@@ -87,20 +87,36 @@ Full Guide
       <img src="/assets/Screenshot_25.png" width="100%" />
     - Static Analysis, drag and drop the executables that you want to analyze inside of Exeinfope and PEStudio to analyze it further.
         Exeinfope will give you an information if the malware is packed and the good part is, it also tells you how to unpack.
+      <img src="/assets/Screenshot_26.png" width="100%" />
+      <img src="/assets/Screenshot_27.png" width="100%" />
         PEStudio will tell you indications on what functions/api that will be used alongside the windows libraries file.
+      <img src="/assets/Screenshot_28.png" width="100%" />
+      <img src="/assets/Screenshot_29.png" width="100%" />
     - Dynamic Analysis, before trying to run the malware it is recommended to start fakenet-ng incase the malware is trying to connect to an external network/IP.
-        Procmon can be used to capture and log the activity of the malware. Filter can be applied also into the captured logs, those filter are:
+      <img src="/assets/Screenshot_36.png" width="100%" />
+        Procmon can be used to capture and log the activity of the malware.
+      Filter can be applied also into the captured logs, those filter are:
           - ProcessCreate
           - WriteFile
           - SetDispositionInformationFile
           - TCP and UDP
-          - RegSetValue 
+          - RegSetValue
+       <img src="/assets/Screenshot_31.png" width="100%" />
         ProcessCreate can show the malware is creating a new process when it is executed, while WriteFile and SetDispositionInformationFile is tracking what file or temporary files are created.
         RegSetValue also keep tracks of the value of registry that are being set. TCP and UDP are to logs if the malware is requesting a request to external IP/Websites.
-        Afterwards, Procmon can create/export the logs using CSV so that Procdot can read them. 
+        Afterwards, Procmon can create/export the logs using CSV so that Procdot can read them.
+       <img src="/assets/Screenshot_32.png" width="100%" />
         While using Procdot, you can use the CSV file that you got from Procmon and insert them. Pick the process of the malware that was running on the device and hit refresh to visualize the process.
-    D. Disassembly and Patching
-        Ghidra, you can use it to analyze the executables. It will analyze the imports such as functions and necessary DLL file that are being used also being able to decompile some part of the malware is a nice thing to have. 
+       <img src="/assets/Screenshot_33.png" width="100%" />
+       <img src="/assets/Screenshot_34.png" width="100%" />
+       <img src="/assets/Screenshot_35.png" width="100%" />
+    - Disassembly and Patching
+        Ghidra, you can use it to analyze the executables. It will analyze the imports such as functions and necessary DLL file that are being used also being able to decompile some part of the malware is a nice thing to have.
+      <img src="/assets/Screenshot_37.png" width="100%" />
+
         By doing decompile on the code, you can analyze what conditions does it have to run certain functions and/or finds out what is the killswitch. 
         Finally, after you have got the killswitch and analyze the conditions you can import/open the executeables in X64dbg or X32dbg to patch that specific functions.
-        You can either change the value like changing from 1 to a 0 or going with the NOP on functions that are marked as suspicious/dangerous. 
+        You can either change the value like changing from 1 to a 0 or going with the NOP on functions that are marked as suspicious/dangerous.
+      <img src="/assets/Screenshot_38.png" width="100%" />
+      <img src="/assets/Screenshot_39.png" width="100%" />
+      <img src="/assets/Screenshot_40.png" width="100%" />
